@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ProjectC\ProjectC.csproj" />
+    <ProjectReference Include="..\ProjectC\ProjectC.csproj" PrivateAssets="all" />
   </ItemGroup>
 
   <PropertyGroup>

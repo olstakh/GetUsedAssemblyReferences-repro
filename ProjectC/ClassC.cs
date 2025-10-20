@@ -1,6 +1,8 @@
 ﻿namespace ClassC;
 
-public class ClassC
+/// <summary>
+/// 
+/// </summary>
+internal class ClassC
 {
-
 }

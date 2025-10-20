@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectB\ProjectB.csproj" />
-    <ProjectReference Include="..\ProjectC\ProjectC.csproj" />
+    <ProjectReference Include="..\ProjectC\ProjectC.csproj" Condition="'$(Add_A_To_C_Reference)' == 'true'" />
   </ItemGroup>
 
   <PropertyGroup>

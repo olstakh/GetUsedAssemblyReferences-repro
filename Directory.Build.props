@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <RepoRoot>$(MSBuildThisFileDirectory.TrimEnd('\\'))</RepoRoot>
+    <Nullable>Enable</Nullable>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>Enable</ImplicitUsings>
+    <LangVersion>Latest</LangVersion>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReferenceTrimmer" PrivateAssets="all" />
+  </ItemGroup>  
+
+</Project>

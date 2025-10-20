@@ -1,6 +1,8 @@
 ﻿namespace ClassB;
 
-public class ClassB : ClassC.ClassC
+/// <summary>
+/// 
+/// </summary>
+internal class ClassB : ClassC.ClassC
 {
-
 }
